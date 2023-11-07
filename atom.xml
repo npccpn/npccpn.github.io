@@ -6,7 +6,7 @@
   <link href="http://npccpn.github.io/atom.xml" rel="self"/>
   
   <link href="http://npccpn.github.io/"/>
-  <updated>2023-10-31T13:42:52.043Z</updated>
+  <updated>2023-11-07T08:43:24.013Z</updated>
   <id>http://npccpn.github.io/</id>
   
   <author>
@@ -21,7 +21,7 @@
     <link href="http://npccpn.github.io/post/b87bfcb6.html"/>
     <id>http://npccpn.github.io/post/b87bfcb6.html</id>
     <published>2023-10-31T07:50:58.000Z</published>
-    <updated>2023-10-31T13:42:52.043Z</updated>
+    <updated>2023-11-07T08:43:24.013Z</updated>
     
     <content type="html"><![CDATA[<h1 id><a href="#" class="headerlink" title></a></h1><h2 id="概念"><a href="#概念" class="headerlink" title="概念"></a>概念</h2><ol><li>定义：由mxn个数排成的m行n列的数表</li></ol><p>            对于一般非齐次线性方程组→系数矩阵、增广矩阵（无要求）</p><img title src="/post/b87bfcb6/definition1.png" alt="loading-ag-254" style="zoom:67%;"><ol start="2"><li>特殊矩阵：</li></ol><ul><li><p>零矩阵</p></li><li><p>行矩阵、列矩阵</p></li><li><p>方阵</p><ul><li>方阵的行列式</li></ul></li><li><p>上三角形、下三角形矩阵</p></li><li><p>对角矩阵</p><ul><li><p>数量矩阵（主对角元都相等）(数量矩阵乘矩阵<strong>A</strong>等于数λ乘矩阵<strong>A</strong>)</p><ul><li><strong>单位矩阵（主对角元都是1）</strong>（可以把数乘矩阵转换为矩阵乘法）</li></ul></li></ul></li></ul><ol start="3"><li>矩阵的相等：行数、列数、对应元素都相等（行列数相等称为同型矩阵）</li></ol><h2 id="基本运算"><a href="#基本运算" class="headerlink" title="基本运算"></a>基本运算</h2><ol><li><p>矩阵的加法</p><ul><li><p>同型才可相加</p></li><li><p>满足交换律和结合律</p></li><li><p>负矩阵</p></li></ul></li><li><p>数乘矩阵（数不能与矩阵相加减）</p><img title src="/post/b87bfcb6/multi1.png" alt="loading" style="zoom:67%;"></li><li><p>矩阵乘法</p><ul><li><p>mxs型和sxn型才能相乘→mxn型</p></li><li><p>结合律、分配律成立，交换律一般不成立（数量矩阵与任何同阶方阵可交换）</p></li><li><p>消去律一般不成立</p></li><li><p>两个相乘得<strong>0</strong>的矩阵可能都不是零矩阵</p></li><li><img title src="/post/b87bfcb6/multi2.png" alt="loading" style="zoom:67%;"></li><li><p>（有限个）同阶对角矩阵的乘积</p></li></ul></li><li><p>方阵的乘幂</p><ul><li><p>只有方阵才有乘幂运算</p></li><li><p>注意矩阵乘法的不可交换性</p></li><li><img title src="/post/b87bfcb6/multi3.png" alt="loading" style="zoom:67%;"></li></ul></li><li><p>矩阵的转置</p><ul><li><img title src="/post/b87bfcb6/trans1.png" alt="loading" style="zoom:67%;"></li><li><p>对称矩阵&amp;反对称矩阵（必为方阵）</p></li></ul></li></ol><h2 id="逆矩阵"><a href="#逆矩阵" class="headerlink" title="逆矩阵"></a>逆矩阵</h2><ul><li><p>伴随矩阵</p><ul><li><p>代数余子式（行←→列）</p></li><li><p><strong>AA</strong>* &#x3D; <strong>A*A</strong> &#x3D; |<strong>A</strong>|<strong>E</strong></p></li></ul></li><li><p>逆矩阵（方阵）</p><ul><li><p>若方阵<strong>A</strong>可逆，则<strong>A</strong>的逆矩阵是唯一的</p></li><li><p>n阶矩阵<strong>A</strong>可逆的充分必要条件式|<strong>A</strong>|≠0（非奇异矩阵）（&#x3D;0的为奇异矩阵）</p></li><li><p>当<strong>A</strong>可逆时，有<img title src="/post/b87bfcb6/ni1.png" alt="loading" style="zoom:50%;"></p></li><li><img title src="/post/b87bfcb6/ni2.png" alt="loading" style="zoom:67%;"></li></ul></li></ul><h2 id="分块矩阵"><a href="#分块矩阵" class="headerlink" title="分块矩阵"></a>分块矩阵</h2><ol><li><p>定义：将矩阵用一些横线和纵线分割成若干个小块，每个小块称为矩阵的子块，以子块为元素的形式上的矩阵称为分块矩阵，（不唯一，与分发有关）如<img title src="/post/b87bfcb6/division1.png" alt="loading" style="zoom:67%;"></p></li><li><p>运算</p><ul><li><p>加法（分块法一致且每块均为同型矩阵）</p></li><li><p>数乘</p></li><li><p>乘法（<strong>A</strong>的列的分发与<strong>B</strong>的行的分发一致），例</p><img title src="/post/b87bfcb6/division_multi.png" alt="loading" style="zoom:50%;"></li><li><p>转置<img src="/post/b87bfcb6/division_trans.png" title alt="loading" style="zoom:67%;"></p></li></ul></li><li><p>分块对角矩阵</p><ul><li><img title src="/post/b87bfcb6/devision2.png" alt="loading" style="zoom:67%;"></li><li><p>常用结论（待定求解得）<img title src="/post/b87bfcb6/division_ni.png" alt="loading" style="zoom:50%;"></p></li></ul></li></ol>]]></content>
     
@@ -34,6 +34,10 @@
     
     
     
+    <category term="数学" scheme="http://npccpn.github.io/categories/%E6%95%B0%E5%AD%A6/"/>
+    
+    
+    <category term="线代" scheme="http://npccpn.github.io/tags/%E7%BA%BF%E4%BB%A3/"/>
     
   </entry>
   

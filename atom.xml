@@ -6,7 +6,7 @@
   <link href="http://npccpn.github.io/atom.xml" rel="self"/>
   
   <link href="http://npccpn.github.io/"/>
-  <updated>2023-11-16T11:31:29.349Z</updated>
+  <updated>2023-11-16T11:42:39.814Z</updated>
   <id>http://npccpn.github.io/</id>
   
   <author>
@@ -21,14 +21,14 @@
     <link href="http://npccpn.github.io/post/46f57a9a.html"/>
     <id>http://npccpn.github.io/post/46f57a9a.html</id>
     <published>2023-11-16T04:37:06.000Z</published>
-    <updated>2023-11-16T11:31:29.349Z</updated>
+    <updated>2023-11-16T11:42:39.814Z</updated>
     
-    <content type="html"><![CDATA[<h1 id="2022试卷知识点清单"><a href="#2022试卷知识点清单" class="headerlink" title="2022试卷知识点清单"></a>2022试卷知识点清单</h1><p><a href="./math2/paper.pdf">PDF</a></p><p><strong>（没法看到即答解题方法的赶紧复习！）</strong></p><h2 id="题目里的（按书上顺序）"><a href="#题目里的（按书上顺序）" class="headerlink" title="题目里的（按书上顺序）"></a>题目里的（按书上顺序）</h2><ol><li><p>映射与函数、数列的极限都没考到</p></li><li><p>极限是否存在问题（选择）</p></li><li><p>常用极限（填空+大题）</p></li><li><p>函数间断点的概念和判断（选择）</p></li><li><p>无穷小的比较（选择）</p></li><li><p>零点定理（大题）</p></li><li><p>导数的定义和计算（参数方程求二阶导数、隐函数求导）（选填+大题）</p></li><li><p>函数的连续性和可导性（大题）</p></li><li><p>罗尔定理、拉格朗日中值定理（大题）</p></li><li><p>泰勒公式、麦克劳林（填空）</p></li></ol><h2 id="做题感受"><a href="#做题感受" class="headerlink" title="做题感受"></a>做题感受</h2><ol><li><p>洛必达yyds！（但要注意是否满足使用条件）</p></li><li><p>把常用导函数记熟（考场上想不起来建议重新求）</p></li><li><p>常用极限、常用等价无穷小灵活应用（同样注意使用条件）</p></li><li><p>函数的连续性与可导性还是要看看参答，写的标准≠写的复杂</p></li><li><p>emmm变形的时候要注意像多乘的要记得除掉啊QAQ</p></li></ol><h2 id="一些错题"><a href="#一些错题" class="headerlink" title="一些错题"></a>一些错题</h2><ol><li><p>注意相乘的两个式子在x→0﹢和0﹣的时候值都不同，相乘后整体值相同，因此为<strong>B</strong>可去间断点<br><img src="/post/46f57a9a/wrong01.png"></p></li><li><p>反三角掌握不够熟练￣□￣｜｜，arctanx+arccotx&#x3D;π&#x2F;2，答案是<strong>C</strong>等价无穷小<br><img src="/post/46f57a9a/wrong02.png"></p></li><li><p>求dy不要忘了加dx啊！！！[○･｀Д´･ ○]<br><img src="/post/46f57a9a/wrong03.png"></p></li><li><p>欣赏一下参答吧</p><p><img src="/post/46f57a9a/wrong04.png"></p></li></ol>]]></content>
+    <content type="html"><![CDATA[<h1 id="2022试卷知识点清单"><a href="#2022试卷知识点清单" class="headerlink" title="2022试卷知识点清单"></a>2022试卷知识点清单</h1><p><a href="./46f57a9a/paper.pdf">学习通22-23（1）高数期中</a></p><p><a href="./46f57a9a/answer.pdf">学习通22-23（一）高等数学I期中试卷参考答案</a></p><p><strong>（没法看到即答解题方法的赶紧复习！）</strong></p><h2 id="题目里的（按书上顺序）"><a href="#题目里的（按书上顺序）" class="headerlink" title="题目里的（按书上顺序）"></a>题目里的（按书上顺序）</h2><ol><li><p>映射与函数、数列的极限都没考到</p></li><li><p>极限是否存在问题（选择）</p></li><li><p>常用极限（填空+大题）</p></li><li><p>函数间断点的概念和判断（选择）</p></li><li><p>无穷小的比较（选择）</p></li><li><p>零点定理（大题）</p></li><li><p>导数的定义和计算（参数方程求二阶导数、隐函数求导）（选填+大题）</p></li><li><p>函数的连续性和可导性（大题）</p></li><li><p>罗尔定理、拉格朗日中值定理（大题）</p></li><li><p>泰勒公式、麦克劳林（填空）</p></li></ol><h2 id="做题感受"><a href="#做题感受" class="headerlink" title="做题感受"></a>做题感受</h2><ol><li><p>洛必达yyds！（但要注意是否满足使用条件）</p></li><li><p>把常用导函数记熟（考场上想不起来建议重新求）</p></li><li><p>常用极限、常用等价无穷小灵活应用（同样注意使用条件）</p></li><li><p>函数的连续性与可导性还是要看看参答，写的标准≠写的复杂</p></li><li><p>emmm变形的时候要注意像多乘的要记得除掉啊QAQ</p></li></ol><h2 id="一些错题"><a href="#一些错题" class="headerlink" title="一些错题"></a>一些错题</h2><ol><li><p>注意相乘的两个式子在x→0﹢和0﹣的时候值都不同，相乘后整体值相同，因此为<strong>B</strong>可去间断点<br><img src="/post/46f57a9a/wrong01.png"></p></li><li><p>反三角掌握不够熟练￣□￣｜｜，arctanx+arccotx&#x3D;π&#x2F;2，答案是<strong>C</strong>等价无穷小<br><img src="/post/46f57a9a/wrong02.png"></p></li><li><p>求dy不要忘了加dx啊！！！[○･｀Д´･ ○]<br><img src="/post/46f57a9a/wrong03.png"></p></li><li><p>欣赏一下参答吧</p><p><img src="/post/46f57a9a/wrong04.png"></p></li></ol>]]></content>
     
     
       
       
-    <summary type="html">&lt;h1 id=&quot;2022试卷知识点清单&quot;&gt;&lt;a href=&quot;#2022试卷知识点清单&quot; class=&quot;headerlink&quot; title=&quot;2022试卷知识点清单&quot;&gt;&lt;/a&gt;2022试卷知识点清单&lt;/h1&gt;&lt;p&gt;&lt;a href=&quot;./math2/paper.pdf&quot;&gt;PDF&lt;/a</summary>
+    <summary type="html">&lt;h1 id=&quot;2022试卷知识点清单&quot;&gt;&lt;a href=&quot;#2022试卷知识点清单&quot; class=&quot;headerlink&quot; title=&quot;2022试卷知识点清单&quot;&gt;&lt;/a&gt;2022试卷知识点清单&lt;/h1&gt;&lt;p&gt;&lt;a href=&quot;./46f57a9a/paper.pdf&quot;&gt;学习通</summary>
       
     
     

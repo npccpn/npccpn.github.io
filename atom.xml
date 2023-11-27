@@ -6,7 +6,7 @@
   <link href="http://npccpn.github.io/atom.xml" rel="self"/>
   
   <link href="http://npccpn.github.io/"/>
-  <updated>2023-11-16T14:56:30.117Z</updated>
+  <updated>2023-11-27T10:35:36.495Z</updated>
   <id>http://npccpn.github.io/</id>
   
   <author>
@@ -15,6 +15,23 @@
   </author>
   
   <generator uri="https://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>关于RSS</title>
+    <link href="http://npccpn.github.io/post/4a0672a7.html"/>
+    <id>http://npccpn.github.io/post/4a0672a7.html</id>
+    <published>2023-11-27T10:33:57.000Z</published>
+    <updated>2023-11-27T10:35:36.495Z</updated>
+    
+    
+    
+    
+    <category term="未知" scheme="http://npccpn.github.io/categories/%E6%9C%AA%E7%9F%A5/"/>
+    
+    
+    <category term="RSS" scheme="http://npccpn.github.io/tags/RSS/"/>
+    
+  </entry>
   
   <entry>
     <title>如何在hexo文章中插入本地文件</title>

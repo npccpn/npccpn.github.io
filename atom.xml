@@ -6,7 +6,7 @@
   <link href="http://npccpn.github.io/atom.xml" rel="self"/>
   
   <link href="http://npccpn.github.io/"/>
-  <updated>2023-11-29T08:34:49.249Z</updated>
+  <updated>2024-01-10T02:04:30.949Z</updated>
   <id>http://npccpn.github.io/</id>
   
   <author>
@@ -15,6 +15,109 @@
   </author>
   
   <generator uri="https://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>矩阵的相似变换复习</title>
+    <link href="http://npccpn.github.io/post/2685d6aa.html"/>
+    <id>http://npccpn.github.io/post/2685d6aa.html</id>
+    <published>2024-01-08T15:11:54.000Z</published>
+    <updated>2024-01-10T02:04:30.949Z</updated>
+    
+    <content type="html"><![CDATA[<p><strong>注：本篇适用于复习</strong></p><h2 id="方阵的特征值和特征向量"><a href="#方阵的特征值和特征向量" class="headerlink" title="方阵的特征值和特征向量"></a>方阵的特征值和特征向量</h2><ol><li><p><strong>特征值与特征向量</strong></p></li><li><p><strong>特征值和特征向量的性质</strong></p></li></ol><h2 id="相似矩阵"><a href="#相似矩阵" class="headerlink" title="相似矩阵"></a>相似矩阵</h2><ol><li><p><strong>相似矩阵的概念与性质</strong></p></li><li><p><strong>矩阵的对角化</strong></p></li></ol><h2 id="实对称矩阵的对角化"><a href="#实对称矩阵的对角化" class="headerlink" title="实对称矩阵的对角化"></a>实对称矩阵的对角化</h2><ol><li><p><strong>实对称矩阵特征值与特征向量</strong></p></li><li><p><strong>正交矩阵</strong></p></li><li><p><strong>实对称矩阵的对角化</strong></p></li></ol>]]></content>
+    
+    
+      
+      
+    <summary type="html">&lt;p&gt;&lt;strong&gt;注：本篇适用于复习&lt;/strong&gt;&lt;/p&gt;
+&lt;h2 id=&quot;方阵的特征值和特征向量&quot;&gt;&lt;a href=&quot;#方阵的特征值和特征向量&quot; class=&quot;headerlink&quot; title=&quot;方阵的特征值和特征向量&quot;&gt;&lt;/a&gt;方阵的特征值和特征向量&lt;/h2&gt;&lt;ol</summary>
+      
+    
+    
+    
+    <category term="数学" scheme="http://npccpn.github.io/categories/%E6%95%B0%E5%AD%A6/"/>
+    
+    
+    <category term="线代" scheme="http://npccpn.github.io/tags/%E7%BA%BF%E4%BB%A3/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>向量空间复习</title>
+    <link href="http://npccpn.github.io/post/b1650077.html"/>
+    <id>http://npccpn.github.io/post/b1650077.html</id>
+    <published>2024-01-08T15:06:05.000Z</published>
+    <updated>2024-01-10T02:04:30.923Z</updated>
+    
+    <content type="html"><![CDATA[<p><strong>注：本篇适用于复习</strong></p><h2 id="向量空间"><a href="#向量空间" class="headerlink" title="向量空间"></a>向量空间</h2><ol><li><p><strong>向量空间即有关概念</strong></p></li><li><p><strong>向量空间的基、维数和坐标</strong></p></li><li><p><strong>基变换与坐标变换*</strong></p></li></ol><h2 id="向量内积与正交化"><a href="#向量内积与正交化" class="headerlink" title="向量内积与正交化"></a>向量内积与正交化</h2><ol><li><p><strong>向量的内积</strong></p></li><li><p><strong>向量的正交性</strong></p></li><li><p><strong>施密特正交化</strong></p></li></ol><h2 id="线性方程组的解空间"><a href="#线性方程组的解空间" class="headerlink" title="线性方程组的解空间"></a>线性方程组的解空间</h2><ol><li><p><strong>齐次线性方程组的基础解系</strong></p></li><li><p><strong>齐次线性方程组的解空间</strong></p></li><li><p><strong>非齐次线性方程组的解集</strong></p></li></ol>]]></content>
+    
+    
+      
+      
+    <summary type="html">&lt;p&gt;&lt;strong&gt;注：本篇适用于复习&lt;/strong&gt;&lt;/p&gt;
+&lt;h2 id=&quot;向量空间&quot;&gt;&lt;a href=&quot;#向量空间&quot; class=&quot;headerlink&quot; title=&quot;向量空间&quot;&gt;&lt;/a&gt;向量空间&lt;/h2&gt;&lt;ol&gt;
+&lt;li&gt;&lt;p&gt;&lt;strong&gt;向量空间即有关概念&lt;/</summary>
+      
+    
+    
+    
+    <category term="数学" scheme="http://npccpn.github.io/categories/%E6%95%B0%E5%AD%A6/"/>
+    
+    
+    <category term="线代" scheme="http://npccpn.github.io/tags/%E7%BA%BF%E4%BB%A3/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>向量的线性关系复习</title>
+    <link href="http://npccpn.github.io/post/7db3767e.html"/>
+    <id>http://npccpn.github.io/post/7db3767e.html</id>
+    <published>2023-12-03T08:43:44.000Z</published>
+    <updated>2024-01-10T02:04:30.945Z</updated>
+    
+    <content type="html"><![CDATA[<p><strong>注：本篇适用于复习</strong></p><h2 id="向量及其线性表示"><a href="#向量及其线性表示" class="headerlink" title="向量及其线性表示"></a>向量及其线性表示</h2><ol><li><p><strong>n维向量</strong>：由n个数组成的有序数组(x1, x2, …, xn) 组成数都为实数→实向量<br>行向量&amp;列向量（无特别说明，后面出现的一般指列向量）<br>零向量：向量的各个分量全为0<br>向量相等：当且仅当二者的所有分量对应相等<br><img src="/post/7db3767e/01.png" alt></p></li><li><p><strong>向量的线性运算</strong>：向量的加法和数乘<br><img src="/post/7db3767e/02.png" alt><br><img src="/post/7db3767e/03.png" alt>称β可由向量组线性表示</p><ul><li>定理：n维向量β可由n维向量组α$\ _1$, α$\ _2$, …, α$\ _m$线性表示$\Longleftrightarrow$线性方程组x$\ _1$α$\ _1$+x$\ _2$α$\ _2$+…+x$\ _m$ α$\ _m$=β有解$\Longleftrightarrow$方程组系数矩阵的秩R(A)= R($\overline{A}$)(增广矩阵的秩).</li></ul></li></ol><h2 id="向量组的线性相关性"><a href="#向量组的线性相关性" class="headerlink" title="向量组的线性相关性"></a>向量组的线性相关性</h2><ol><li><p><strong>向量组的线性相关</strong>：若向量组<strong>A</strong>∶α$\ _1$, α$\ _2$, …, α$\ _m$(m≥2)中至少有一个向量可由其余m-1个向量线性表示，则称向量组<strong>A</strong>线性相关，否则称向量组<strong>A</strong>线性无关.<br>判断向量组线性相关or线性无关：<br>向量组α$\ _1$, α$\ _2$, …, α$\ _m$∈$R^n$线性相关$\Longleftrightarrow$存在一组不全为零的数$\ k_1$, $\ k_2$, …, $\ k_m$，使得$\ k_1α_1$+ $\ k_2α_1$+ …,+$\ k_mα_m$ = <strong>0</strong>(零向量)<br>把上式中$\ k_1$, $\ k_2$, …, $\ k_m$看成未知元，即一个m元齐次线性方程组：</p><ul><li><p>方程组有非零解$\Longleftrightarrow$方程组系数矩阵的秩R(<strong>A</strong>)&lt;m$\Longleftrightarrow$n维向量组α$\ _1$, α$\ _2$, …, α$\ _m$线性相关；</p></li><li><p>方程组只有零解$\Longleftrightarrow$方程组系数矩阵的秩R(<strong>A</strong>)=m$\Longleftrightarrow$n维向量组α$\ _1$, α$\ _2$, …, α$\ _m$线性无关.</p><ul><li><p>对于只包含一个向量α的向量组，当α=0时是线性相关的，当α≠0时是线性无关的;</p></li><li><p>对于包含两个向量的向量组，该向量组线性相关$\Longleftrightarrow$两向量的对应分量成比例，几何意义即两向量共线.</p></li></ul></li></ul></li><li><p><strong>向量组线性相关的性质</strong></p></li></ol><h2 id="向量组的秩"><a href="#向量组的秩" class="headerlink" title="向量组的秩"></a>向量组的秩</h2><ol><li><p><strong>向量组的极大无关组</strong></p></li><li><p><strong>向量组的秩</strong></p></li></ol>]]></content>
+    
+    
+      
+      
+    <summary type="html">&lt;p&gt;&lt;strong&gt;注：本篇适用于复习&lt;/strong&gt;&lt;/p&gt;
+&lt;h2 id=&quot;向量及其线性表示&quot;&gt;&lt;a href=&quot;#向量及其线性表示&quot; class=&quot;headerlink&quot; title=&quot;向量及其线性表示&quot;&gt;&lt;/a&gt;向量及其线性表示&lt;/h2&gt;&lt;ol&gt;
+&lt;li&gt;&lt;p&gt;&lt;st</summary>
+      
+    
+    
+    
+    <category term="数学" scheme="http://npccpn.github.io/categories/%E6%95%B0%E5%AD%A6/"/>
+    
+    
+    <category term="线代" scheme="http://npccpn.github.io/tags/%E7%BA%BF%E4%BB%A3/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>pyqt5学习之路（已废弃）</title>
+    <link href="http://npccpn.github.io/post/b827c13c.html"/>
+    <id>http://npccpn.github.io/post/b827c13c.html</id>
+    <published>2023-11-29T11:04:19.000Z</published>
+    <updated>2024-01-10T02:13:02.089Z</updated>
+    
+    <content type="html"><![CDATA[<p><strong>写在前面：</strong></p><p><strong>本来想记录一下学习过程的，结果发现太坎坷，往往来不及记录上一个解决bug的历程就出现了下一个bug，于是放弃orz</strong></p><h1 id="pyqt5安装"><a href="#pyqt5安装" class="headerlink" title="pyqt5安装"></a>pyqt5安装</h1><ol><li><p>创建虚拟环境<br>教程<a href="https://zhuanlan.zhihu.com/p/94744929">Anaconda-用conda创建python虚拟环境</a></p><ul><li><p>cmd中输入命令，但开局不利。<img src="/post/b827c13c/00.png" alt></p></li><li><p>如第二张图输入命令应该就可以了，看到提示说conda不是最新版本，建议在创建虚拟环境前就可以先更新。<img src="/post/b827c13c/01.png" alt></p></li></ul></li><li><p>装pyqt5，没看懂存一下<img src="/post/b827c13c/02.png" alt></p></li><li><p>上面的步骤应该有问题。。但不知道哪里开始有问题。。因为进入虚拟环境成功应该是这样的<img src="/post/b827c13c/03.png" alt></p></li><li><p>退出虚拟环境时报错了→直接使用conda deactivate不加名字试试</p></li></ol><p><strong>留一个坑在最后：</strong></p><p><strong>哪一天写一下成果实现过程好了(<em>^▽^</em>)</strong></p>]]></content>
+    
+    
+      
+      
+    <summary type="html">&lt;p&gt;&lt;strong&gt;写在前面：&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;本来想记录一下学习过程的，结果发现太坎坷，往往来不及记录上一个解决bug的历程就出现了下一个bug，于是放弃orz&lt;/strong&gt;&lt;/p&gt;
+&lt;h1 id=&quot;pyqt5安装&quot;&gt;&lt;a href=&quot;#p</summary>
+      
+    
+    
+    
+    <category term="未知" scheme="http://npccpn.github.io/categories/%E6%9C%AA%E7%9F%A5/"/>
+    
+    
+    <category term="python" scheme="http://npccpn.github.io/tags/python/"/>
+    
+  </entry>
   
   <entry>
     <title>关于RSS</title>

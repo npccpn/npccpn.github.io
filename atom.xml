@@ -6,7 +6,7 @@
   <link href="http://npccpn.github.io/atom.xml" rel="self"/>
   
   <link href="http://npccpn.github.io/"/>
-  <updated>2024-01-18T04:24:16.498Z</updated>
+  <updated>2024-01-21T12:44:10.390Z</updated>
   <id>http://npccpn.github.io/</id>
   
   <author>
@@ -15,6 +15,35 @@
   </author>
   
   <generator uri="https://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>期末程c知识点对应大纲复习</title>
+    <link href="http://npccpn.github.io/post/7dffdf45.html"/>
+    <id>http://npccpn.github.io/post/7dffdf45.html</id>
+    <published>2024-01-20T11:45:56.000Z</published>
+    <updated>2024-01-21T12:44:10.390Z</updated>
+    
+    <content type="html"><![CDATA[<p><a href=".//review.pdf">2023-2024（1）程序设计基础C期末应试复习大纲</a></p><h1>运算符和表达式理解</h1><ol><li class="lvl-3"><p>递增和递减运算符（++, --）</p><ul class="lvl-2"><li class="lvl-5"><p>这两个运算符可以作为前缀或后缀使用，与其使用位置相关。例如，<code>++x</code> 表示先将 x 的值增加1，然后返回增加后的值；而 <code>x++</code> 则表示先返回 x 的值，然后再将 x 的值增加1。</p><pre class="line-numbers language-c++" data-language="c++"><code class="language-c++">int num &#x3D; &#39;a&#39;;cout&lt;&lt;&quot;97:&quot;&lt;&lt;num++&lt;&lt;endl;cout&lt;&lt;&quot;98:&quot;&lt;&lt;num&lt;&lt;endl;cout&lt;&lt;&quot;99:&quot;&lt;&lt;++num&lt;&lt;endl;cout&lt;&lt;&quot;99:&quot;&lt;&lt;num&lt;&lt;endl;<span aria-hidden="true" class="line-numbers-rows"><span></span><span></span><span></span><span></span><span></span></span></code></pre></li></ul></li><li class="lvl-3"><p>sizeof运算符</p><ul class="lvl-2"><li class="lvl-5"><p>sizeof 运算符用于获取数据类型或变量的大小（以字节为单位）。</p><ul class="lvl-4"><li class="lvl-7"><p>例如：无论整数的值是多少，<code>sizeof</code> 运算符返回的结果都是固定的，取决于数据类型的大小。</p></li><li class="lvl-7"><p>例如：<code>sizeof</code> 运算符返回的是数组或数据类型在内存中所占的字节数，而不是字符串的长度。</p></li></ul><pre class="line-numbers language-c++" data-language="c++"><code class="language-c++">char ch &#x3D; &#39;a&#39;;char lis[] &#x3D; &#123;1, 2, 3&#125;;cout&lt;&lt;&quot;4:&quot;&lt;&lt;sizeof(int)&lt;&lt;endl;cout&lt;&lt;&quot;1:&quot;&lt;&lt;sizeof(char)&lt;&lt;endl;cout&lt;&lt;&quot;5:&quot;&lt;&lt;sizeof(&quot;abcd&quot;)&lt;&lt;endl;cout&lt;&lt;&quot;4:&quot;&lt;&lt;sizeof(123456)&lt;&lt;endl;cout&lt;&lt;&quot;3:&quot;&lt;&lt;sizeof(lis)&lt;&lt;endl;                      <span aria-hidden="true" class="line-numbers-rows"><span></span><span></span><span></span><span></span><span></span><span></span><span></span></span></code></pre></li></ul></li><li class="lvl-3"><p>逻辑运算的短路：</p><ul class="lvl-2"><li class="lvl-5">逻辑运算符包括逻辑与（&amp;&amp;）、逻辑或（||）和逻辑非（!）。这些运算符在进行逻辑运算时具有短路特性。</li><li class="lvl-5">逻辑与（&amp;&amp;）：当第一个表达式为假时，不会再计算第二个表达式，直接返回假。</li><li class="lvl-5">逻辑或（||）：当第一个表达式为真时，不会再计算第二个表达式，直接返回真。</li></ul></li></ol><h1>字符串和字符数组（C风格的字符串）</h1><ol><li class="lvl-3"><p>输入输出</p><ul class="lvl-2"><li class="lvl-5"><p>cin</p><ul class="lvl-4"><li class="lvl-7">不能读入分隔符：空格（space）、制表符（tab）、换行（enter）</li></ul></li><li class="lvl-5"><p>cin.getline()</p><ul class="lvl-4"><li class="lvl-7">默认通过换行符来确定输入结束（也可指定其他符号），不读入enter，也不保留。但可以读入space、tab</li></ul></li></ul><pre class="line-numbers language-c++" data-language="c++"><code class="language-c++">char s[100];cin.getline(s, 7, &#39;*&#39;); &#x2F;&#x2F; 第三个参数可以没有cout&lt;&lt;s&lt;&lt;endl;<span aria-hidden="true" class="line-numbers-rows"><span></span><span></span><span></span></span></code></pre><ul class="lvl-2"><li class="lvl-5"><p>输入：abcdefgh 输出：abcdef</p></li><li class="lvl-5"><p>输入：abcd*efgh 输出：abcd</p></li><li class="lvl-5"><p>输入：a bcdef*gh 输出：a bcde</p></li></ul></li><li class="lvl-3"><p>常用字符串处理函数（使用&lt;cstring&gt;库）</p><ul class="lvl-2"><li class="lvl-5"><p>求串字面长：strlen()</p></li><li class="lvl-5"><p>串比较：strcmp()</p></li><li class="lvl-5"><p>串拷贝：strcpy() / strcpy_s()</p></li><li class="lvl-5"><p>串连接： strcat() / strcat_s()</p><pre class="line-numbers language-c++" data-language="c++"><code class="language-c++">char s1[] &#x3D; &quot;abcd&quot;;char s2[] &#x3D; &quot;acde&quot;;char s3[] &#x3D; &quot;abcd&quot;;cout&lt;&lt;&quot;4:&quot;&lt;&lt;strlen(s1)&lt;&lt;endl;cout&lt;&lt;&quot;-1:&quot;&lt;&lt;strcmp(s1, s2)&lt;&lt;endl; &#x2F;&#x2F; 若s1&gt;s2输出1cout&lt;&lt;&quot;acde:&quot;&lt;&lt;strcpy(s1, s2)&lt;&lt;endl; &#x2F;&#x2F; s2复制给s1cout&lt;&lt;&quot;abcdacde:&quot;&lt;&lt;strcat(s3, s2)&lt;&lt;endl;<span aria-hidden="true" class="line-numbers-rows"><span></span><span></span><span></span><span></span><span></span><span></span><span></span></span></code></pre></li></ul></li></ol><h1>变量的作用域、静态变量概念</h1><ol><li class="lvl-3"><p>全局变量和局部变量</p><ul class="lvl-2"><li class="lvl-5"><p>全局变量：在所有函数之外定义的变量称为全局变量，由编译器建立，并且初始化为0。</p></li><li class="lvl-5"><p>局部变量：在某个函数之内定义的变量称为局部变量，初始是一个随机数。</p></li><li class="lvl-5"><p>在全局变量的作用域内定义与其同名的局部变量，则在该局部变量的作用域内，对应的全局变量不起作用（<strong>被屏蔽</strong>）</p></li></ul></li><li class="lvl-3"><p>变量的存储类型</p><ul class="lvl-2"><li class="lvl-5"><p>动态存储类型</p><ul class="lvl-4"><li class="lvl-7"><p>auto：自动的（用于<strong>局部</strong>变量）<strong>缺省</strong></p></li><li class="lvl-7"><p>register：寄存器的（用于<strong>局部</strong>变量）</p><p>目的：为了提高执行效率</p><p>注意：函数内<strong>使用频繁</strong>的<strong>局部变量或形式参数或数组的下标变量</strong>可定义为寄存器变量，而<strong>静态局部变量</strong>和<strong>全局变量</strong>不能定义为寄存器变量</p></li></ul></li><li class="lvl-5"><p>静态存储类型</p><ul class="lvl-4"><li class="lvl-7"><p>static：静态的（用于<strong>全局</strong>变量、<strong>局部</strong>变量或<strong>函数</strong>）</p><ol><li class="lvl-10"><p>静态局部变量</p><ul class="lvl-8"><li class="lvl-12"><p>值存放在<strong>全局数据区</strong>，直到程序运行结束才释放;</p></li><li class="lvl-12"><p>编译时<strong>只赋初值一次</strong>，若没有给出初值，则自动赋值为0或空；</p><p>（静态局部变量具有静态存储期，即它们的生命周期超过了函数的执行时间。这意味着无论函数被调用多少次，静态局部变量都只会被初始化一次，并且在函数调用之间保持其值）</p></li><li class="lvl-12"><p><strong>只能在定义该变量的函数或局部块内使用</strong></p></li></ul></li><li class="lvl-10"><p>静态全局变量</p><ul class="lvl-8"><li class="lvl-12"><p>值存放在<strong>全局数据区</strong>，直到程序运行结束才释放;</p></li><li class="lvl-12"><p><strong>编译时赋初值一次</strong>，若没有给出初值，则自动赋值为0或空;</p></li><li class="lvl-12"><p><strong>只能在定义该变量的文件内使用，而不能在其它文件中被引用</strong></p></li></ul></li><li class="lvl-10"><p>静态函数</p><ul class="lvl-8"><li class="lvl-12"><strong>用关键字static声明或定义的函数</strong>，只能在定义该函数的文件内有效，而不能被其它源文件所用——有时叫内部函数。</li></ul></li></ol></li><li class="lvl-7"><p>extern：外部的（用于<strong>全局</strong>变量、<strong>常量</strong>或<strong>函数</strong>）</p><p>①对外部函数的声明可以不用extern，而<strong>对外部全局变量和外部全局常量</strong>的声明<strong>一定</strong>要用extern<br>②它们引用时要先在文件的前部进行声明，声明时不分配内存，只是说明它在<strong>别处</strong>有<strong>定义</strong>，其作用相当于把该它的作用域扩大到该声明所在的文件中</p></li></ul></li></ul></li><li class="lvl-3"><p>全局作用域</p></li><li class="lvl-3"><p>函数作用域</p></li><li class="lvl-3"><p>块作用域吧</p></li><li class="lvl-3"><p>静态作用域</p></li></ol>]]></content>
+    
+    
+      
+      
+    <summary type="html">&lt;p&gt;&lt;a href=&quot;.//review.pdf&quot;&gt;2023-2024（1）程序设计基础C期末应试复习大纲&lt;/a&gt;&lt;/p&gt;
+&lt;h1&gt;运算符和表达式理解&lt;/h1&gt;
+&lt;ol&gt;
+&lt;li class=&quot;lvl-3&quot;&gt;
+&lt;p&gt;递增和递减运算符（++, --）&lt;/p&gt;
+&lt;ul class=</summary>
+      
+    
+    
+    
+    <category term="未知" scheme="http://npccpn.github.io/categories/%E6%9C%AA%E7%9F%A5/"/>
+    
+    
+    <category term="cpp" scheme="http://npccpn.github.io/tags/cpp/"/>
+    
+  </entry>
   
   <entry>
     <title>矩阵的相似变换复习</title>
@@ -94,20 +123,22 @@
   </entry>
   
   <entry>
-    <title>pyqt5学习之路（已废弃）</title>
+    <title>pyqt5学习之路（废弃了又捡回来了）</title>
     <link href="http://npccpn.github.io/post/b827c13c.html"/>
     <id>http://npccpn.github.io/post/b827c13c.html</id>
     <published>2023-11-29T11:04:19.000Z</published>
-    <updated>2024-01-10T02:13:02.089Z</updated>
+    <updated>2024-01-27T13:01:50.105Z</updated>
     
-    <content type="html"><![CDATA[<p><strong>写在前面：</strong></p><p><strong>本来想记录一下学习过程的，结果发现太坎坷，往往来不及记录上一个解决bug的历程就出现了下一个bug，于是放弃orz</strong></p><h1 id="pyqt5安装"><a href="#pyqt5安装" class="headerlink" title="pyqt5安装"></a>pyqt5安装</h1><ol><li><p>创建虚拟环境<br>教程<a href="https://zhuanlan.zhihu.com/p/94744929">Anaconda-用conda创建python虚拟环境</a></p><ul><li><p>cmd中输入命令，但开局不利。<img src="/post/b827c13c/00.png" alt></p></li><li><p>如第二张图输入命令应该就可以了，看到提示说conda不是最新版本，建议在创建虚拟环境前就可以先更新。<img src="/post/b827c13c/01.png" alt></p></li></ul></li><li><p>装pyqt5，没看懂存一下<img src="/post/b827c13c/02.png" alt></p></li><li><p>上面的步骤应该有问题。。但不知道哪里开始有问题。。因为进入虚拟环境成功应该是这样的<img src="/post/b827c13c/03.png" alt></p></li><li><p>退出虚拟环境时报错了→直接使用conda deactivate不加名字试试</p></li></ol><p><strong>留一个坑在最后：</strong></p><p><strong>哪一天写一下成果实现过程好了(<em>^▽^</em>)</strong></p>]]></content>
+    <content type="html"><![CDATA[<p><strong>写在前面：</strong></p><p><strong>本来想记录一下学习过程的，结果发现太坎坷，往往来不及记录上一个解决bug的历程就出现了下一个bug，于是放弃orz</strong></p><h1>pyqt5安装</h1><ol><li class="lvl-3"><p>创建虚拟环境教程<a href="https://zhuanlan.zhihu.com/p/94744929">Anaconda-用conda创建python虚拟环境</a></p><ul class="lvl-2"><li class="lvl-5"><p>cmd中输入命令，但开局不利。<img src="/post/b827c13c/00.png" alt></p></li><li class="lvl-5"><p>如第二张图输入命令应该就可以了，看到提示说conda不是最新版本，建议在创建虚拟环境前就可以先更新。<img src="/post/b827c13c/01.png" alt></p></li></ul></li><li class="lvl-3"><p>装pyqt5，没看懂存一下（pyqt5-tools同样方式安装）<img src="/post/b827c13c/02.png" alt></p></li><li class="lvl-3"><p>上面的步骤应该有问题。。但不知道哪里开始有问题。。因为进入虚拟环境成功应该是这样的<img src="/post/b827c13c/03.png" alt></p></li><li class="lvl-3"><p>退出虚拟环境时报错了→直接使用conda deactivate不加名字试试</p></li></ol><p><strong>留一个坑在最后：</strong></p><p><strong>哪一天写一下成果实现过程好了(<em><sup>▽</sup></em>)</strong></p><p>------------------------分割线---------------------------二编-----------------------------------</p><h1>新项目</h1><h2 id="创建虚拟环境">创建虚拟环境</h2><p>同上就好了，不要忘了加python=…不然创建的是空的</p><p><a href="https://zhuanlan.zhihu.com/p/94744929">关于虚拟环境的一些指令</a></p><h2 id="在pycharm中配置解释器">在pycharm中配置解释器</h2><ol><li class="lvl-3"><p>打开一个项目<img src="/post/b827c13c/04.png" alt></p></li><li class="lvl-3"><p>在文件-设置-项目中找到python编辑器</p></li><li class="lvl-3"><p><img src="/post/b827c13c/05.png" alt></p></li><li class="lvl-3"><p>找到对应虚拟环境下的python.exe</p><p>这里有一个问题是我忘了第一次怎么做的，那个解释器是绿色圆圈样式的，但是搞不出来了，反正路径就是这个。。</p><p><img src="/post/b827c13c/06.png" alt></p></li></ol><h2 id="安装相应工具">安装相应工具</h2><p><a href="https://wuxian.blog.csdn.net/article/details/108867482">PyCharm安装PyQt5及其工具（Qt Designer、PyUIC、PyRcc）详细教程-CSDN博客</a></p><p>上述内容可以跳过安装pyqt5和pyqt5-tools的步骤，因为前面已经在创建虚拟环境之后就安装了</p><p>我这次新建项目可以看到外部工具已经有设置好了是上一次的记录，那我直接把虚拟环境的目录名称改掉应该就可以了</p>]]></content>
     
     
       
       
     <summary type="html">&lt;p&gt;&lt;strong&gt;写在前面：&lt;/strong&gt;&lt;/p&gt;
 &lt;p&gt;&lt;strong&gt;本来想记录一下学习过程的，结果发现太坎坷，往往来不及记录上一个解决bug的历程就出现了下一个bug，于是放弃orz&lt;/strong&gt;&lt;/p&gt;
-&lt;h1 id=&quot;pyqt5安装&quot;&gt;&lt;a href=&quot;#p</summary>
+&lt;h1&gt;pyqt5安装&lt;/h1&gt;
+&lt;ol&gt;
+&lt;li cl</summary>
       
     
     
